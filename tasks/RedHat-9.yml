@@ -1,11 +1,11 @@
 ---
 
-- name: Include local user authentication task 
+- name: Include system id change task 
   ansible.builtin.import_tasks:
-    file: luserauth.yml
+    file: sysid.yml
 
-#- name: Include system id change task 
+#- name: Include local user authentication task 
 #  ansible.builtin.import_tasks:
-#    file: sysid.yml
+#    file: luserauth.yml
 
 ...
