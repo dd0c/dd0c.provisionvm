@@ -1,2 +1,2 @@
 # dd0c.provisionvm
-Provisioning of cloned vm
+Ansible role for provisioning of newly cloned vm. Includes bootstrapping authentication settings, removing all system identifications and network configuration.
