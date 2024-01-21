@@ -12,4 +12,7 @@
 #  ansible.builtin.import_tasks:
 #    file: authentication.yml
 
+#- name: Register at RH
+#- name: make sure all tools are installed
+
 ...

@@ -18,16 +18,4 @@
     name: "{{ nameofhost }}.{{ nameofdomain }}"
     use: systemd
 
-#- name: Change network address of cloned VM
-#  community.general.nmcli:
-#  - set_fact:
-#      ip_addr: "{{ lookup('dig', '{{ item }}' ) }}"
-#    with_items: "{{ inventory_hostname }}"
-#    conn_name: "ens18"
-#    ifname: "ens18"
-#    type: "ethernet"
-#    ip4: "{{ ip_addr }}/24"
-#    gw4: "192.168.69.1"
-#    state: present
-
 ...
